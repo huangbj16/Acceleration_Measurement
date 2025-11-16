@@ -1,4 +1,4 @@
-#include <Adafruit_ADXL345_U.h>
+ls - la / dev / cu.*| grep usbmodem #include<Adafruit_ADXL345_U.h>
 #include <Adafruit_Sensor.h>
 #include <Wire.h>
 // #include "arduinoFFT.h"
@@ -9,17 +9,17 @@
 // Change this value to match your hardware configuration:
 #define ADXL345_I2C_ADDRESS 0x1D // Change to 0x1D for alternate address
 
-// arduinoFFT FFT = arduinoFFT(); /* Create FFT object */
-// const uint16_t samples = 512; //This value MUST ALWAYS be a power of 2
-// const double samplingFrequency = 538;
-// double vReal[samples];
-// double vImag[samples];
-// int fftIndex = 0;
+    // arduinoFFT FFT = arduinoFFT(); /* Create FFT object */
+    // const uint16_t samples = 512; //This value MUST ALWAYS be a power of 2
+    // const double samplingFrequency = 538;
+    // double vReal[samples];
+    // double vImag[samples];
+    // int fftIndex = 0;
 
-// float data_array_x[100];
-// float data_array_y[100];
-// float data_array_z[100];
-unsigned long lastTimestamp;
+    // float data_array_x[100];
+    // float data_array_y[100];
+    // float data_array_z[100];
+    unsigned long lastTimestamp;
 unsigned long counter;
 
 /* Assign a unique ID to this sensor at the same time */
