@@ -277,8 +277,8 @@ if __name__ == "__main__":
     # On Windows: 'COM3', 'COM4', etc.
     # On macOS/Linux: '/dev/cu.usbmodem2101', '/dev/ttyUSB0', etc.
 
-    PORT_SENSOR_1 = '/dev/cu.usbmodem1101'  # Sensor at address 0x53
-    PORT_SENSOR_2 = '/dev/cu.usbmodem2101'   # Sensor at address 0x1D (change to None for single sensor)
+    PORT_SENSOR_1 = '/dev/cu.usbmodem101'  # Sensor at address 0x53
+    PORT_SENSOR_2 = '/dev/cu.usbmodem1101'   # Sensor at address 0x1D (change to None for single sensor)
 
     # For single sensor, set PORT_SENSOR_2 = None
     # spec = AccelerationAnalyzer(port1=PORT_SENSOR_1)
